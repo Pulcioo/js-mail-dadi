@@ -12,3 +12,12 @@ console.log(numberComputer)
 document.getElementById('n-user').innerHTML = "Hai totalizzato " + numberUser;
 
 document.getElementById('n-computer').innerHTML = "Il computer ha totalizzato " + numberComputer;
+
+// scrivo le condizioni gioco e stampo in document il risultato
+if (numberUser < numberComputer) {
+    document.getElementById('result').innerHTML = " HAI PERSO! :( ";
+} else if (numberUser === numberComputer) {
+    document.getElementById('result').innerHTML = " PAREGGIO! :| ";
+} else if (numberUser > numberComputer) {
+    document.getElementById('result').innerHTML = " HAI VINTO! :) ";
+} 

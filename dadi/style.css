@@ -7,9 +7,17 @@
 .container{
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
 }
 
 .container p{
    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+    font-size: 50px;
 }
 
